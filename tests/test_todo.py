@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, ".")
 import os
 from todo import add_task, load_tasks, mark_task_complete, delete_task
 
